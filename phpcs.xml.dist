@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ruleset name="grualink-api-php">
+    <description>PSR-12 for the library, the tests and the examples.</description>
+    <arg name="extensions" value="php"/>
+    <arg name="colors"/>
+    <arg value="spn"/>
+    <file>src</file>
+    <file>tests</file>
+    <file>examples</file>
+    <rule ref="PSR12"/>
+</ruleset>
